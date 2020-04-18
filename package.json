@@ -1,0 +1,27 @@
+{
+  "name": "graphql-react-chuck-jokes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "",
+    "start": "node app.js",
+    "server": "nodemon app.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\" "
+  },
+  "author": "Ayabonga Booi",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-express": "^2.12.0",
+    "axios": "^0.19.2",
+    "concurrently": "^5.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "graphql": "^15.0.0",
+    "graphql-yoga": "^1.18.3",
+    "node-fetch": "^2.6.0",
+    "nodemon": "^2.0.3"
+  }
+}
