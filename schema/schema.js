@@ -34,7 +34,6 @@ const resolvers = {
             })
         },
 
-
         getJoke: async (parent, params) => {
             const category = params.category;
             const result = await axios.get(`${baseURL}random?category=${category}`);
