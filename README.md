@@ -32,5 +32,7 @@ Client:
 #### App Demo: 
 
 [Chuck Norris App](https://frozen-thicket-53665.herokuapp.com/) 
+[SandBox link] (https://lc3cq.sse.codesandbox.io/)
+[sandBox app link](https://codesandbox.io/u/MrBooi)
 
 
