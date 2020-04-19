@@ -14,6 +14,7 @@
   "license": "ISC",
   "dependencies": {
     "apollo-server-express": "^2.12.0",
+    "apollo-server-testing": "^2.12.0",
     "axios": "^0.19.2",
     "concurrently": "^5.1.0",
     "cors": "^2.8.5",
@@ -23,5 +24,8 @@
     "graphql-yoga": "^1.18.3",
     "node-fetch": "^2.6.0",
     "nodemon": "^2.0.3"
+  },
+  "devDependencies": {
+    "@testing-library/react-hooks": "^3.2.1"
   }
 }
